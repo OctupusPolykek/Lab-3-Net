@@ -31,7 +31,7 @@ namespace NetThirdlab
         {
             string result = "c";
             c = new Point();
-            c = (a.Addition(a).ProductV(b));
+            c = (a.Addition(a)).ProductV(b);
 
             return result + c.ToString();
         }
